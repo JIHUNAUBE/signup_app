@@ -7,7 +7,10 @@
 **Track:** Undergraduate  
 **Task:** Task A – AI Signup Coach (Mock Practice)  
 **Student:** Jihun Kim  
+<<<<<<< HEAD
 
+=======
+>>>>>>> 988193d (Add undergraduate reflection answers)
 
 ## Project Description
 
@@ -38,15 +41,16 @@ I used a local mock service because no AI endpoint URL was provided. The app wai
 - `flutter test` – All tests passed
 - Android release APK – Build successful
 
+
 ## Reflection – Undergraduate Track
 
 **Question 1: Trace the AI tip feature from button tap to displayed text.**
 
-[Write 2–3 sentences explaining what happens when you press Get Practice Tip, which state changes during loading, and how Retry works.]
+When the user clicks the Get Practice Tip button, the app shows a loading indicator. After two seconds, the mock service returns a signup tip and displays it on the screen. If something goes wrong, the app shows an error message and a Retry button.
 
 **Question 2: Why must the app keep form validation local even when it can ask an AI for a suggestion?**
 
-[Write 2–3 sentences explaining why local validation is important and why personal form information should not be sent to the AI service.]
+Local validation is faster because the app can check user input without using a server. It also helps protect personal information like passwords and email addresses. Even if the AI service is not working, the form can still check the user's information.
 
 ## Contribution
 
