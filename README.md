@@ -7,7 +7,7 @@
 **Track:** Undergraduate  
 **Task:** Task A – AI Signup Coach (Mock Practice)  
 **Student:** Jihun Kim  
-**Partner:** [Add partner name if applicable]
+
 
 ## Project Description
 
