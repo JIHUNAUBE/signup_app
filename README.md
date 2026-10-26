@@ -50,7 +50,7 @@ Local validation is faster because the app can check user input without using a 
 
 ## Contribution
 
-[Describe the parts you personally implemented and tested.]
+I worked on the Flutter signup form and tested the input validation. I also tested the mock signup tip, loading indicator, and error handling. I ran Flutter tests and built the Android APK.
 
 ## Build Instructions
 
